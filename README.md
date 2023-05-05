@@ -1,10 +1,9 @@
-This is the code for my blogpost: [The complete guide to OpenTelemetry in Golang](https://www.komu.engineer/blogs/11/opentelemetry-and-go.html)        
+This code comes from www.komu.engineer: [The complete guide to OpenTelemetry in Golang](https://www.komu.engineer/blogs/11/opentelemetry-and-go.html)
 
-The Golang code can be found in the `code` folder.     
+The Golang code can be found in the `code` folder.  
 To run the code;
-```sh
-cd code/
 
+```sh
 ./confs/certs.sh
 docker-compose up --build
 go run ./...
